@@ -16,3 +16,9 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 # Display the table on the page.
 streamlit.dataframe(fruits_to_show)
+streamlit.title("Chai's Dhaba")
+streamlit.header('Breakfast Favourites')
+streamlit.text('🥣 Idli -- 100RS')
+streamlit.text('🥗 Dosa -- 110RS')
+streamlit.text('🐔 Medu-Vada -- 120RS')
+
